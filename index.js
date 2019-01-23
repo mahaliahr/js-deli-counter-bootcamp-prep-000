@@ -18,13 +18,13 @@ function currentLine(currentLine) {
       x.push('The line is currently:'+ counter + '.' + currentLine[counter-1])
     }
   if (currentLine && currentLine.length) {
-  return x 
+  return x
 } else {
   return 'The line is currently empty.'
 }
 
 }
-}
+
 
 
   return x
