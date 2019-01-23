@@ -1,3 +1,4 @@
 function takeANumber(currentLine, name) {
-  return 'Welcome' + name + '. You are number'+ currentLine[index] + 'in line.'
+  var index = 0
+  return 'Welcome' + name + '. You are number'+ currentLine[index + 1] + 'in line.'
 }
