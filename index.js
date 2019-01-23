@@ -12,6 +12,6 @@ function nowServing(katzDeliLine) {
   }
 }
 
-function currentLine(currentLine,) {
-
+function currentLine(currentLine) {
+  return 'The line is currently: 1.' + currentLine[0]
 }
