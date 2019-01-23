@@ -17,10 +17,11 @@ function currentLine(currentLine) {
     for(var counter = 1; counter < currentLine.length; counter++ ) {
       x.push('The line is currently:'+ counter + '.' + currentLine[counter-1])
     }
-  if (currentLine && currentLine.length) {
-  return x
+  if (currentLine.length === 0) {
+    return 'The line is currently empty.'
+  
 } else {
-  return 'The line is currently empty.'
+  return x
 }
 
 }
