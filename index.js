@@ -1,5 +1,5 @@
 function takeANumber(currentLine, name) {
-  currentLine.unshift(name)
+  currentLine.push(name)
   return 'Welcome, ' + name + '. You are number '+ currentLine.length + ' in line.'
 }
 
