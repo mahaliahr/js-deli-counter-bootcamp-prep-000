@@ -7,5 +7,5 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(currentLine,) {
-  
+
 }
